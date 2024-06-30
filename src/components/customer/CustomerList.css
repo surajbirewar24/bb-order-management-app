@@ -1,0 +1,77 @@
+.customer-list {
+    padding: 20px;
+    background-color: #1d1f21; 
+    color: #f0f0f0; 
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 0 auto; 
+  }
+  
+  .customer-list h1 {
+    color: #F97316; 
+    text-align: center;
+  }
+  
+  .customer-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+  }
+  
+  .add-customer-button {
+    padding: 10px 20px;
+    background-color: #F97316;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .add-customer-button:hover {
+    background-color: #F26502;
+  }
+  
+  .customer-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .customer-table th,
+  .customer-table td {
+    border: 1px solid #09090B; 
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .customer-table th {
+    background-color: #09090B; 
+  }
+  
+  .customer-table tbody tr:nth-child(odd) {
+    background-color: #242424; 
+  }
+  
+  .customer-table tbody tr:nth-child(even) {
+    background-color: #2a2a2a; 
+  }
+  
+  .customer-table tbody tr:hover {
+    background-color: #333333; 
+  }
+  
+  .edit-button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .edit-button:hover {
+    background-color: #45a049;
+  }
+  

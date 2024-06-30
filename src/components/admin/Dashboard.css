@@ -1,0 +1,88 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;800&display=swap');
+
+/* General styles */
+/* body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #09090B;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+} */
+
+.dashboard {
+  padding: 24px;
+  background-color: #09090B;
+  color: #F97316;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dashboard-title {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+}
+
+.dashboard-content {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  max-width: 800px;
+}
+
+.dashboard-image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+.dashboard-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.dashboard-button {
+  background-color: #F97316;
+  border-color: #F97316;
+  width: 300px;
+  height: 60px;
+  font-size: 16px;
+}
+
+.dashboard-link {
+  color: #09090B;
+}
+
+.dashboard-button:hover {
+  background-color: #f26502;
+  border-color: #f26502;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .dashboard-title {
+    font-size: 20px;
+    top: 10px;
+    left: 10px;
+  }
+  
+  .dashboard-content {
+    top: 120px;
+    width: 90%;
+  }
+  
+  .dashboard-button {
+    width: 100%;
+  }
+}
